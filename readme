@@ -1,3 +1,1 @@
-addition compiler flags used
-
--g1 -Oz -DNDEBUG -fno-stack-protector -fdata-sections -fconserve-stack -fgraphite -fgraphite-identity -flive-range-shrinkage -fsched-pressure -fsched-spec-load -ftree-lrs -malign-data=abi -mtune=skylake --param inline-min-speedup=14 --param inline-heuristics-hint-percent=360 --param sched-autopref-queue-depth=3 --param max-hoist-depth=64 --param predictable-branch-outcome=15 --param ipa-cp-eval-threshold=570 --param inline-heuristics-hint-percent=140 --param max-crossjump-edges=164 --param max-delay-slot-insn-search=154
+optimized for both smaller size and performance using gcc compiler flags magic.
